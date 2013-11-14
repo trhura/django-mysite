@@ -8,15 +8,15 @@ Steps to setup the project :
 	$> pip install virtualenv
 
 4) install the project repository
-	$> cd path/to/some_folder
-	$> git clone <forked_path>
+	$> cd path/to/some_folder 
+	$> git clone <forked_path> 
     
 5) install the inkbulb dependencies (these steps will download all thirdparty modules needed, may take 5-10 mins)
-	$> cd path/to/some_other_folder/
-	$> virtualenv mysite_env
-	$> source mysite_env/bin/activate
-	(mysite_env)$> cd path/to/cloned_project
-	(mysite_env)$> pip install -r requirements.txt
+	$> cd path/to/some_other_folder/ 
+	$> virtualenv mysite_env 
+	$> source mysite_env/bin/activate 
+	(mysite_env)$> cd path/to/cloned_project 
+	(mysite_env)$> pip install -r requirements.txt 
     
 6) To start the local webserver, this should start the application on 8000 port
 	(mysite_env)$> manage.py runserver
