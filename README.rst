@@ -12,7 +12,7 @@ Steps to setup the project :
 	
 	$> git clone <forked_path> 
     
-5) install the inkbulb dependencies (these steps will download all thirdparty modules needed, may take 5-10 mins)
+5) install the project dependencies
 	$> cd path/to/some_other_folder/ 
 	
 	$> virtualenv mysite_env 
