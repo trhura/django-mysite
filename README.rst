@@ -8,7 +8,7 @@ Steps to setup the project :
 	$> pip install virtualenv
 
 4) install the project repository
-	$> cd path/to/some_folder 
+	$> cd path/to/some_folder	
 	$> git clone <forked_path> 
     
 5) install the inkbulb dependencies (these steps will download all thirdparty modules needed, may take 5-10 mins)
